@@ -38,10 +38,9 @@ header{
 }
 .col-md-7 li a{
 	display: block;
-	
 	color: black;
-	font-size:40px;
-	padding: 0 45px;
+	font-size: 40px;
+	padding: 0 35px;
 }
 .col-md-7 .active {
   background-color: #d9534f;
@@ -50,6 +49,9 @@ header{
 }
 .main-header li:last-child a{
 	padding: 0px 20px;
+}
+.topnav .icon {
+    display: none;
 }
 .banner-header h1{
 	margin: 0px;
@@ -103,7 +105,7 @@ img:last-child{
 	padding-left: 30px;
 }
 footer{
-	margin-bottom: 40px: 
+	margin-bottom: 40px; 
 }
 address{
 	letter-spacing: 1px;
