@@ -9,10 +9,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap-theme.css.map">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="js/responsive.js">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -24,14 +25,18 @@
 						<div class="col-md-5">
 							<div class="text">
 							<h1>WHAT<font color="blue">ISFOR</font></h1>
-							<p>DINNER</p></div>
+							<p>DINNER</p>
+							</div>
 						</div>
 						<div class="col-md-7">
+							<div class="topnav" id="myTopnav">
 							<ul>
 								<li><a href="../whatisfordinner/home.html">Home</a></li>
 								<li><a href="../whatisfordinner/tab1.html">HAD SOMETHING</a></li>
 								<li><a class="active" href="tab2.html">EAT ANYTHING</a></li>
+								<li><a a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
 							</ul>
+						</div>
 						</div>
 					</div>						
 				</div>
@@ -103,6 +108,16 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+    			x.className += " responsive";
+  			} else {
+    			x.className = "topnav";
+  			}
+		}
+	</script>
 </body>
 <footer>
 	<div class="main-footer">

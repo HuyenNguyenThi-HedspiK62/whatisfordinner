@@ -1,6 +1,5 @@
 *{
 	margin: 0;
-	width: : 1280px !important;
 	padding:0;
 	font-family: BigNoodleTitling;
 }
@@ -17,6 +16,9 @@ header{
 .main-header{
 	border-bottom: 1px solid black;
 
+}
+.topnav .icon {
+    display: none;
 }
 .col-md-5 h1{
 	margin-bottom: 0px;
@@ -39,10 +41,9 @@ header{
 }
 .col-md-7 li a{
 	display: block;
-	
 	color: black;
 	font-size:40px;
-	padding: 0 45px;
+	padding: 0 35px;
 }
 .col-md-7 .active {
   background-color: #d9534f;
@@ -103,11 +104,6 @@ header{
 .selection .image li{
 	padding-right: 60px;
 }
-/*img:hover{
-	width: 110%;
-	/*box-shadow: 0 0 1px 1px rgba(0, 140, 186, 0.5);
-	
-}*/
 
 img:last-child{
 	padding-right: 0px;
@@ -120,7 +116,7 @@ img:last-child{
 	border: 2px solid black;
 }
 footer{
-	margin-bottom: 40px: 
+	margin-bottom: 40px; 
 }
 address{
 	letter-spacing: 1px;
@@ -157,7 +153,7 @@ footer .col-md-4--contact a{
 .main-footer .glyphicon{
 	padding-right: 5px;
 }
-@media screen and (min-width: 601px) {
+/*@media screen and (min-width: 601px) {
   .text, .banner-header{
     font-size: 40px;
   }
@@ -165,4 +161,4 @@ footer .col-md-4--contact a{
 @media screen and (max-width: 600px) {
   .text .banner-header {
     font-size: 20px;
-  }
+  }*/
