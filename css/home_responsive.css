@@ -72,6 +72,12 @@
     	float: none;
     	display: block;
     	text-align: left;
+      padding: 0px 20px;
+        font-size: 20px;
+    }
+    div .topnav.responsive li{
+        padding: 0px;
+    
   	}
   	div .text h1{
     	font-size: 30px;
@@ -130,6 +136,12 @@
     	float: none;
     	display: block;
     	text-align: left;
+      padding: 0px 20px;
+        font-size: 20px;
+    }
+    div .topnav.responsive li{
+        padding: 0px;
+    
     }
   	div .main-header li:last-child a {
     	padding: 0px 60px;
